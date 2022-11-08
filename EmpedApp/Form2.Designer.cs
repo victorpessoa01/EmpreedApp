@@ -43,7 +43,7 @@
             this.textBoxNome.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNome.Multiline = true;
             this.textBoxNome.Name = "textBoxNome";
-            this.textBoxNome.Size = new System.Drawing.Size(331, 28);
+            this.textBoxNome.Size = new System.Drawing.Size(331, 25);
             this.textBoxNome.TabIndex = 0;
             this.textBoxNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 

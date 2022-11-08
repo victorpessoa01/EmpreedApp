@@ -71,9 +71,9 @@
             this.label1.Location = new System.Drawing.Point(339, 201);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(387, 31);
+            this.label1.Size = new System.Drawing.Size(371, 31);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Como você lida como medo?\r\n";
+            this.label1.Text = "Como você lida com medo?\r\n";
             // 
             // bntPgt3
             // 
@@ -104,6 +104,7 @@
             this.Name = "FormPgt3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPgt3";
+            this.Load += new System.EventHandler(this.FormPgt3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

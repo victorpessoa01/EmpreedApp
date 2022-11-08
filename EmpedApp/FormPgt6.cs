@@ -10,27 +10,27 @@ using System.Windows.Forms;
 
 namespace EmpedApp
 {
-    public partial class FormPgt5 : Form
+    public partial class FormPgt6 : Form
     {
-        public FormPgt5()
+        public FormPgt6()
         {
             InitializeComponent();
         }
 
-        private void bntPgt5_Click(object sender, EventArgs e)
+        private void bntPgt6_Click(object sender, EventArgs e)
         {
             if (radioBnt1.Checked == true)
             {
-                FormPgt6 pgt6 = new FormPgt6();
-                pgt6.ShowDialog();
+                FormPgt7 pgt7 = new FormPgt7();
+                pgt7.ShowDialog();
                 this.Dispose();
             }
 
             else if (radioBnt2.Checked == true)
             {
-                FormPgt6 pgt6 = new FormPgt6();
-                pgt6.ShowDialog();
-                this.Dispose(); ;
+                FormPgt7 pgt7 = new FormPgt7();
+                pgt7.ShowDialog();
+                this.Dispose();
             }
             else
             {
@@ -38,7 +38,17 @@ namespace EmpedApp
             }
         }
 
+        private void radioBnt2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void radioBnt1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

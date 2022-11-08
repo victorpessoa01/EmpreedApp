@@ -44,5 +44,10 @@ namespace EmpedApp
                 MessageBox.Show("Assinale uma alternativa");
             }
         }
+
+        private void FormPgt2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

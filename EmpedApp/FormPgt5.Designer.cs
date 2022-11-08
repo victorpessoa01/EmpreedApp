@@ -42,10 +42,10 @@
             this.radioBnt2.Location = new System.Drawing.Point(322, 337);
             this.radioBnt2.Margin = new System.Windows.Forms.Padding(2);
             this.radioBnt2.Name = "radioBnt2";
-            this.radioBnt2.Size = new System.Drawing.Size(462, 33);
+            this.radioBnt2.Size = new System.Drawing.Size(440, 33);
             this.radioBnt2.TabIndex = 8;
             this.radioBnt2.TabStop = true;
-            this.radioBnt2.Text = "Tenho medo de arriscar e dar errado";
+            this.radioBnt2.Text = "Tem medo de arriscar e dar errado";
             this.radioBnt2.UseVisualStyleBackColor = false;
             // 
             // radioBnt1
@@ -56,11 +56,12 @@
             this.radioBnt1.Location = new System.Drawing.Point(322, 301);
             this.radioBnt1.Margin = new System.Windows.Forms.Padding(2);
             this.radioBnt1.Name = "radioBnt1";
-            this.radioBnt1.Size = new System.Drawing.Size(420, 33);
+            this.radioBnt1.Size = new System.Drawing.Size(412, 33);
             this.radioBnt1.TabIndex = 7;
             this.radioBnt1.TabStop = true;
-            this.radioBnt1.Text = "Vou atrás sem pensar duas vezes";
+            this.radioBnt1.Text = "Vai atrás sem pensar duas vezes";
             this.radioBnt1.UseVisualStyleBackColor = false;
+            this.radioBnt1.CheckedChanged += new System.EventHandler(this.radioBnt1_CheckedChanged);
             // 
             // label1
             // 
