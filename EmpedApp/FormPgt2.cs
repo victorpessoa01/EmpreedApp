@@ -16,5 +16,33 @@ namespace EmpedApp
         {
             InitializeComponent();
         }
+
+        private void bntPgt2_Click(object sender, EventArgs e)
+        {
+            if (radioBnt1.Checked == true)
+            {
+                FormPgt3 pgt3 = new FormPgt3();
+                pgt3.ShowDialog();
+                this.Dispose();
+            }
+
+            else if (radioBnt2.Checked == true)
+            {
+                FormPgt3 pgt3 = new FormPgt3();
+                pgt3.ShowDialog();
+                this.Dispose();
+            }
+            
+            else if (radioBnt3.Checked == true)
+            {
+                FormPgt3 pgt3 = new FormPgt3();
+                pgt3.ShowDialog();
+                this.Dispose();
+            }
+            else
+            {
+                MessageBox.Show("Assinale uma alternativa");
+            }
+        }
     }
 }

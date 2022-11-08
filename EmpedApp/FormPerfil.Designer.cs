@@ -44,6 +44,7 @@
             this.bntSair.TabIndex = 3;
             this.bntSair.Text = "Sair";
             this.bntSair.UseVisualStyleBackColor = false;
+            this.bntSair.Click += new System.EventHandler(this.bntSair_Click);
             // 
             // bntMenu
             // 
@@ -58,6 +59,7 @@
             this.bntMenu.TabIndex = 4;
             this.bntMenu.Text = "Menu";
             this.bntMenu.UseVisualStyleBackColor = false;
+            this.bntMenu.Click += new System.EventHandler(this.bntMenu_Click);
             // 
             // FormPerfil
             // 
@@ -69,7 +71,7 @@
             this.Controls.Add(this.bntMenu);
             this.Controls.Add(this.bntSair);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormPerfil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPerfil";

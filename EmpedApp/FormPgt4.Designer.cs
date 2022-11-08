@@ -38,11 +38,11 @@
             // 
             this.radioBnt2.AutoSize = true;
             this.radioBnt2.BackColor = System.Drawing.Color.Transparent;
-            this.radioBnt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioBnt2.Location = new System.Drawing.Point(372, 330);
-            this.radioBnt2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioBnt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioBnt2.Location = new System.Drawing.Point(275, 356);
+            this.radioBnt2.Margin = new System.Windows.Forms.Padding(2);
             this.radioBnt2.Name = "radioBnt2";
-            this.radioBnt2.Size = new System.Drawing.Size(342, 21);
+            this.radioBnt2.Size = new System.Drawing.Size(540, 33);
             this.radioBnt2.TabIndex = 11;
             this.radioBnt2.TabStop = true;
             this.radioBnt2.Text = "Val Kilmer - Inconstância e Incompreensível";
@@ -52,11 +52,11 @@
             // 
             this.radioBnt1.AutoSize = true;
             this.radioBnt1.BackColor = System.Drawing.Color.Transparent;
-            this.radioBnt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioBnt1.Location = new System.Drawing.Point(372, 295);
-            this.radioBnt1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioBnt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioBnt1.Location = new System.Drawing.Point(275, 321);
+            this.radioBnt1.Margin = new System.Windows.Forms.Padding(2);
             this.radioBnt1.Name = "radioBnt1";
-            this.radioBnt1.Size = new System.Drawing.Size(284, 21);
+            this.radioBnt1.Size = new System.Drawing.Size(450, 33);
             this.radioBnt1.TabIndex = 10;
             this.radioBnt1.TabStop = true;
             this.radioBnt1.Text = "Will Smith - Persistência e otimismo";
@@ -66,11 +66,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(331, 214);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(285, 201);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(356, 48);
+            this.label1.Size = new System.Drawing.Size(492, 62);
             this.label1.TabIndex = 9;
             this.label1.Text = "Com qual desses personagens você \r\nmais se identifica?\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -84,8 +84,9 @@
             this.bntPgt4.Margin = new System.Windows.Forms.Padding(2);
             this.bntPgt4.Name = "bntPgt4";
             this.bntPgt4.Size = new System.Drawing.Size(105, 75);
-            this.bntPgt4.TabIndex = 12;
+            this.bntPgt4.TabIndex = 0;
             this.bntPgt4.UseVisualStyleBackColor = false;
+            this.bntPgt4.Click += new System.EventHandler(this.bntPgt4_Click);
             // 
             // FormPgt4
             // 
@@ -99,7 +100,7 @@
             this.Controls.Add(this.radioBnt1);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormPgt4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPgt4";

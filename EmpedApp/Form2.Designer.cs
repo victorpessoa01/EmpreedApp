@@ -39,12 +39,13 @@
             this.textBoxNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNome.ForeColor = System.Drawing.Color.White;
-            this.textBoxNome.Location = new System.Drawing.Point(367, 253);
-            this.textBoxNome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNome.Location = new System.Drawing.Point(367, 283);
+            this.textBoxNome.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNome.Multiline = true;
             this.textBoxNome.Name = "textBoxNome";
-            this.textBoxNome.Size = new System.Drawing.Size(331, 35);
+            this.textBoxNome.Size = new System.Drawing.Size(331, 28);
             this.textBoxNome.TabIndex = 0;
+            this.textBoxNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -52,7 +53,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Purple;
-            this.label1.Location = new System.Drawing.Point(422, 202);
+            this.label1.Location = new System.Drawing.Point(422, 232);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(221, 31);
@@ -64,8 +65,9 @@
             this.bntcad.BackColor = System.Drawing.Color.Transparent;
             this.bntcad.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bntcad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntcad.ForeColor = System.Drawing.Color.Transparent;
             this.bntcad.Location = new System.Drawing.Point(478, 411);
-            this.bntcad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bntcad.Margin = new System.Windows.Forms.Padding(2);
             this.bntcad.Name = "bntcad";
             this.bntcad.Size = new System.Drawing.Size(109, 75);
             this.bntcad.TabIndex = 2;
@@ -84,7 +86,7 @@
             this.Controls.Add(this.textBoxNome);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";

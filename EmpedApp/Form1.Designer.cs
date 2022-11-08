@@ -28,7 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.bntInicio = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // bntInicio
+            // 
+            this.bntInicio.BackColor = System.Drawing.Color.Transparent;
+            this.bntInicio.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bntInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntInicio.Location = new System.Drawing.Point(478, 548);
+            this.bntInicio.Margin = new System.Windows.Forms.Padding(2);
+            this.bntInicio.Name = "bntInicio";
+            this.bntInicio.Size = new System.Drawing.Size(108, 70);
+            this.bntInicio.TabIndex = 3;
+            this.bntInicio.UseVisualStyleBackColor = false;
+            this.bntInicio.Click += new System.EventHandler(this.bntInicio_Click);
             // 
             // Form1
             // 
@@ -37,6 +51,7 @@
             this.BackgroundImage = global::EmpedApp.Properties.Resources._1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1064, 681);
+            this.Controls.Add(this.bntInicio);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
@@ -47,5 +62,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button bntInicio;
     }
 }

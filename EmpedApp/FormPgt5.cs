@@ -16,5 +16,26 @@ namespace EmpedApp
         {
             InitializeComponent();
         }
+
+        private void bntPgt5_Click(object sender, EventArgs e)
+        {
+            if (radioBnt1.Checked == true)
+            {
+                FormPerfil perfil = new FormPerfil();
+                perfil.ShowDialog();
+                this.Dispose();
+            }
+
+            else if (radioBnt2.Checked == true)
+            {
+                FormPerfil perfil = new FormPerfil();
+                perfil.ShowDialog();
+                this.Dispose();
+            }
+            else
+            {
+                MessageBox.Show("Assinale uma alternativa");
+            }
+        }
     }
 }

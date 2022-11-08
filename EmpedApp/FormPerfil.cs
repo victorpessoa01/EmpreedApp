@@ -16,5 +16,17 @@ namespace EmpedApp
         {
             InitializeComponent();
         }
+
+        private void bntSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void bntMenu_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.ShowDialog();
+            this.Dispose();
+        }
     }
 }
