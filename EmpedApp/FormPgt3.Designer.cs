@@ -38,9 +38,10 @@
             this.radioBnt2.AutoSize = true;
             this.radioBnt2.BackColor = System.Drawing.Color.Transparent;
             this.radioBnt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioBnt2.Location = new System.Drawing.Point(449, 384);
+            this.radioBnt2.Location = new System.Drawing.Point(418, 301);
+            this.radioBnt2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioBnt2.Name = "radioBnt2";
-            this.radioBnt2.Size = new System.Drawing.Size(188, 29);
+            this.radioBnt2.Size = new System.Drawing.Size(140, 21);
             this.radioBnt2.TabIndex = 8;
             this.radioBnt2.TabStop = true;
             this.radioBnt2.Text = "Sou persistente";
@@ -51,9 +52,10 @@
             this.radioBnt1.AutoSize = true;
             this.radioBnt1.BackColor = System.Drawing.Color.Transparent;
             this.radioBnt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioBnt1.Location = new System.Drawing.Point(449, 331);
+            this.radioBnt1.Location = new System.Drawing.Point(418, 266);
+            this.radioBnt1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioBnt1.Name = "radioBnt1";
-            this.radioBnt1.Size = new System.Drawing.Size(174, 29);
+            this.radioBnt1.Size = new System.Drawing.Size(129, 21);
             this.radioBnt1.TabIndex = 7;
             this.radioBnt1.TabStop = true;
             this.radioBnt1.Text = "Sou insistente";
@@ -65,23 +67,25 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(341, 248);
+            this.label1.Location = new System.Drawing.Point(346, 212);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(404, 32);
+            this.label1.Size = new System.Drawing.Size(283, 24);
             this.label1.TabIndex = 6;
             this.label1.Text = "Como você lida como medo?\r\n";
             // 
             // FormPgt3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EmpedApp.Properties.Resources._3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1058, 664);
+            this.ClientSize = new System.Drawing.Size(1064, 681);
             this.Controls.Add(this.radioBnt2);
             this.Controls.Add(this.radioBnt1);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormPgt3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPgt3";
