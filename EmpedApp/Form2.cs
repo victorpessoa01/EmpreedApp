@@ -19,6 +19,10 @@ namespace EmpedApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Porcentagem PorOBJ = new Porcentagem();
+            PorOBJ.valor = 0;
+            PorOBJ.nome = textBoxNome.Text;
+
             if (textBoxNome.Text == "")
             {
                 MessageBox.Show("Insira seu nome");

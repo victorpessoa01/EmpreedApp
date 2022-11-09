@@ -75,6 +75,7 @@
             this.Name = "FormPerfil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPerfil";
+            this.Load += new System.EventHandler(this.FormPerfil_Load);
             this.ResumeLayout(false);
 
         }

@@ -16,6 +16,10 @@ namespace EmpedApp
         {
             InitializeComponent();
         }
+        private void FormPerfil_Load(object sender, EventArgs e)
+        {
+            
+        }
 
         private void bntSair_Click(object sender, EventArgs e)
         {
@@ -27,6 +31,11 @@ namespace EmpedApp
             Form1 form1 = new Form1();
             form1.ShowDialog();
             this.Dispose();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+         
         }
     }
 }

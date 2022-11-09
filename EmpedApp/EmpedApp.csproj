@@ -118,6 +118,7 @@
     <Compile Include="FormPgt9.Designer.cs">
       <DependentUpon>FormPgt9.cs</DependentUpon>
     </Compile>
+    <Compile Include="Porcentagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

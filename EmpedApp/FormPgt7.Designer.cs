@@ -85,9 +85,9 @@
             this.label1.Location = new System.Drawing.Point(259, 209);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(526, 31);
+            this.label1.Size = new System.Drawing.Size(554, 31);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Você já deixou de fazer algo por medo?";
+            this.label1.Text = "Você se considera uma pessoa corajosa?";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FormPgt7
