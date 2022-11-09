@@ -16,10 +16,15 @@ namespace EmpedApp
         public Form2()
         {
             InitializeComponent();
+
+            pontos pontos = new pontos();
+            pontos.a = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            pontos.nome = textBoxNome.Text;
+            
             if (textBoxNome.Text == "")
             {
                 MessageBox.Show("Insira seu nome");

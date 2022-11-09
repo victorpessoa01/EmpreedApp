@@ -117,24 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="bntSair.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="bntMenu.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="labeltext.Text" xml:space="preserve">
-    <value>
-O espírito empreendedor vai além da criatividade. Ele pode ser compreendido 
-como a capacidade de inovar e buscar soluções para os problemas. Pensar e agir 
-dessa forma tem de ser um comportamento constante na vida do empresário,
-não só uma aptidão desenvolvida na criação do negócio.
-
-
-As características de um empreendedor são Iniciativa,
-Persistência, Planejamento e Autoconfiança</value>
-  </data>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

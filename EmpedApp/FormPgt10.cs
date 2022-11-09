@@ -10,49 +10,35 @@ using System.Windows.Forms;
 
 namespace EmpedApp
 {
-    public partial class FormPgt7 : Form
+    public partial class FormPgt10 : Form
     {
-        public FormPgt7()
+        public FormPgt10()
         {
             InitializeComponent();
         }
 
-        private void bntPgt7_Click(object sender, EventArgs e)
+        private void bntPgt10_Click(object sender, EventArgs e)
         {
             if (radioBnt1.Checked == true)
             {
                 pontos.a += 1;
-                FormPgt8 pgt8 = new FormPgt8();
-                pgt8.ShowDialog();
+                FormPerfil perfil = new FormPerfil();
+                perfil.ShowDialog();
                 this.Dispose();
-                
             }
 
             else if (radioBnt2.Checked == true)
             {
-                FormPgt8 pgt8 = new FormPgt8();
-                pgt8.ShowDialog();
+                FormPerfil perfil = new FormPerfil();
+                perfil.ShowDialog();
                 this.Dispose();
             }
+
+
             else
             {
                 MessageBox.Show("Assinale uma alternativa");
             }
-        }
-
-        private void radioBnt2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioBnt1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

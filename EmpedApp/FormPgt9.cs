@@ -21,15 +21,17 @@ namespace EmpedApp
         {
             if (radioBnt1.Checked == true)
             {
-                FormPerfil perfil = new FormPerfil();
-                perfil.ShowDialog();
+                pontos.a += 1;
+                FormPgt10 pgt10 = new FormPgt10();
+                pgt10.ShowDialog();
                 this.Dispose();
+
             }
 
             else if (radioBnt2.Checked == true)
             {
-                FormPerfil perfil = new FormPerfil();
-                perfil.ShowDialog();
+                FormPgt10 pgt10 = new FormPgt10();
+                pgt10.ShowDialog();
                 this.Dispose();
             }
             else

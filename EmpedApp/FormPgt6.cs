@@ -21,16 +21,20 @@ namespace EmpedApp
         {
             if (radioBnt1.Checked == true)
             {
+                pontos.a += 1;
                 FormPgt7 pgt7 = new FormPgt7();
                 pgt7.ShowDialog();
                 this.Dispose();
+                
             }
 
             else if (radioBnt2.Checked == true)
-            { 
+            {
+                pontos.b += 2;
                 FormPgt7 pgt7 = new FormPgt7();
                 pgt7.ShowDialog();
                 this.Dispose();
+               
             }
             else
             {

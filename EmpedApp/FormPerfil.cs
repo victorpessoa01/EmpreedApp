@@ -15,6 +15,24 @@ namespace EmpedApp
         public FormPerfil()
         {
             InitializeComponent();
+
+            pontos pontos = new pontos();
+
+            labelNome.Text = pontos.nome;
+
+            if (pontos.a < 6)
+            {
+               labelA.Text = "Sua nota foi " + pontos.a + ".0 Pontos";
+               labelB.Text = "Você não tem um perfil Empreendedor";
+            }
+
+            else if (pontos.a >= 6)
+            {
+                labelA.Text = "Sua nota foi " + pontos.a+".0 Pontos";
+                labelB.Text = "Você tem um perfil Empreendedor";                
+            }
+
+
         }
 
         private void FormPerfil_Load(object sender, EventArgs e)
@@ -40,6 +58,15 @@ namespace EmpedApp
         }
 
         private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelA_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void labeltext_Click(object sender, EventArgs e)
         {
 
         }
