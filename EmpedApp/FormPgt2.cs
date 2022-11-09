@@ -33,12 +33,6 @@ namespace EmpedApp
                 this.Dispose();
             }
             
-            else if (radioBnt3.Checked == true)
-            {
-                FormPgt3 pgt3 = new FormPgt3();
-                pgt3.ShowDialog();
-                this.Dispose();
-            }
             else
             {
                 MessageBox.Show("Assinale uma alternativa");
