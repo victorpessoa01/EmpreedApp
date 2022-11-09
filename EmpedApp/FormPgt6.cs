@@ -27,7 +27,7 @@ namespace EmpedApp
             }
 
             else if (radioBnt2.Checked == true)
-            {
+            { 
                 FormPgt7 pgt7 = new FormPgt7();
                 pgt7.ShowDialog();
                 this.Dispose();

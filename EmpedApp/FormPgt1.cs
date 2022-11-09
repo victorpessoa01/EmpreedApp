@@ -15,6 +15,7 @@ namespace EmpedApp
         public FormPgt1()
         {
             InitializeComponent();
+
         }
 
         private void radioBnt2_CheckedChanged(object sender, EventArgs e)

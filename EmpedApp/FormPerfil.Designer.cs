@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPerfil));
             this.bntSair = new System.Windows.Forms.Button();
             this.bntMenu = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bntSair
@@ -61,6 +63,18 @@
             this.bntMenu.UseVisualStyleBackColor = false;
             this.bntMenu.Click += new System.EventHandler(this.bntMenu_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Montserrat", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(174, 206);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(715, 198);
+            this.label1.TabIndex = 5;
+            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FormPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -68,6 +82,7 @@
             this.BackgroundImage = global::EmpedApp.Properties.Resources._4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1064, 681);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bntMenu);
             this.Controls.Add(this.bntSair);
             this.DoubleBuffered = true;
@@ -77,6 +92,7 @@
             this.Text = "FormPerfil";
             this.Load += new System.EventHandler(this.FormPerfil_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -84,5 +100,6 @@
 
         private System.Windows.Forms.Button bntSair;
         private System.Windows.Forms.Button bntMenu;
+        private System.Windows.Forms.Label label1;
     }
 }

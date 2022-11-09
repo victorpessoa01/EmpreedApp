@@ -32,7 +32,7 @@ namespace EmpedApp
             }
 
             else if (radioBnt2.Checked == true)
-            {
+            { 
                 FormPgt4 pgt4 = new FormPgt4();
                 pgt4.ShowDialog();
                 this.Dispose();
