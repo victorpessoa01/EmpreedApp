@@ -116,6 +116,7 @@
             this.Controls.Add(this.radioBnt1);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormPgt2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
