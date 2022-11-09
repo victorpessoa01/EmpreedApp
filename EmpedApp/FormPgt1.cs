@@ -31,9 +31,6 @@ namespace EmpedApp
         {
             if (radioBnt1.Checked == true)
             {
-                Porcentagem PorOBJ = new Porcentagem();
-                PorOBJ.valor += 1;
-
                 FormPgt2 pgt2 = new FormPgt2();
                 pgt2.ShowDialog();
                 this.Dispose();
@@ -41,9 +38,6 @@ namespace EmpedApp
 
             else if (radioBnt2.Checked == true)
             {
-                Porcentagem PorOBJ = new Porcentagem();
-                PorOBJ.valor2 += 1;
-
                 FormPgt2 pgt2 = new FormPgt2();
                 pgt2.ShowDialog();
                 this.Dispose();
